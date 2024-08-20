@@ -1,12 +1,12 @@
-Certainly! Here’s the README file content without the code, suitable for a repository:
+ Certainly! Here’s the README file content without the code, suitable for a repository:
 
 ```markdown
 # File Conversion Utilities
 
 This repository provides Python scripts for converting files between PDF and Word formats. The following utilities are included:
 
-1. **PDF to Word Converter**
-2. **Word to PDF Converter**
+1. PDF to Word Converter
+2. Word to PDF Converter
 
 ## PDF to Word Converter
 
@@ -22,14 +22,14 @@ The `pdf_to_word.py` script allows you to convert a PDF file into a Word documen
 
 ### Installation
 
-1. **Clone the Repository**:
+1. Clone the Repository:
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
    ```
 
-2. **Install Required Libraries**:
+2. Install Required Libraries:
 
    ```bash
    pip install pymupdf python-docx
@@ -37,16 +37,16 @@ The `pdf_to_word.py` script allows you to convert a PDF file into a Word documen
 
 ### Usage
 
-1. **Navigate to the Script Directory**:
+1. Navigate to the Script Directory:
    Go to the directory where `pdf_to_word.py` is located.
 
-2. **Run the Script**:
+2. Run the Script:
 
    ```bash
    python pdf_to_word.py
    ```
 
-3. **Select the PDF File**:
+3. Select the PDF File:
    A file dialog will appear, allowing you to select the PDF file you want to convert. The converted Word document will be saved in the same directory as the input file.
 
 ## Word to PDF Converter
@@ -65,42 +65,42 @@ The `word_to_pdf.py` script allows you to convert a Word document (.docx) into a
 
 ### Installation
 
-1. **Install Required Libraries**:
+1. Install Required Libraries:
 
    ```bash
    pip install pypandoc pdfkit
    ```
 
-2. **Install Pandoc**:
+2. Install Pandoc:
 
    - Download Pandoc from [Pandoc's official site](https://pandoc.org/installing.html) and follow the installation instructions.
    - Ensure Pandoc is added to your system's PATH.
 
-3. **Install wkhtmltopdf**:
+3. Install wkhtmltopdf:
 
    - Download and install wkhtmltopdf from [wkhtmltopdf's official site](https://wkhtmltopdf.org/downloads.html).
    - Ensure wkhtmltopdf is added to your system's PATH.
 
 ### Usage
 
-1. **Navigate to the Script Directory**:
+1. Navigate to the Script Directory:
    Go to the directory where `word_to_pdf.py` is located.
 
-2. **Run the Script**:
+2. Run the Script:
 
    ```bash
    python word_to_pdf.py
    ```
 
-3. **Select the Word File**:
+3. Select the Word File:
    A file dialog will appear, allowing you to select the Word file you want to convert. The converted PDF will be saved in the same directory as the input file.
 
 ## Contact
 
 For any questions or support, please contact:
 
-- **Name**: Vishesh Sanghvi
-- **LinkedIn**: [Vishesh Sanghvi](https://www.linkedin.com/in/vishesh-sanghvi-96b16a237/)
+- Name: Vishesh Sanghvi
+- LinkedIn: [Vishesh Sanghvi](https://www.linkedin.com/in/vishesh-sanghvi-96b16a237/)
 ```
 
 You can replace `"https://github.com/visheshsanghvi112"` with the actual URL of your repository. This README provides clear instructions on setting up and using both scripts.
